@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: "Merienda", cursive;
+    
+}
+.titlehed{
+    background-color: rgb(0, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    padding: 10px;
+
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2,h5{
+    color: rgb(0, 255, 255);
+}
+.book-container button{
+    margin-top: 20px;
+    padding: 0px 20px;
+    left:30% ;
+    position: relative;
+    width:100px;
+    height: 25px;
+    background-color:  rgb(0, 225, 255);
+    border-radius: 10px;
+    border: none; 
+    font-size: 18px; 
+    font-weight: bold;
+}
+.add-button{
+    background-color:#0b0b0c ;
+    border-radius: 100px;
+    color: #fcfafa;
+    padding: 15px 30px;
+    border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    font-size: 50px;
+    
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 2000%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+
+}
+.popup-text{
+    background-color: rgb(0, 255, 255);
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    z-index: 2;
+    display: none;
+}
+.popup-text input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    border-bottom: solid rgb(97, 95, 95) 2px;
+}
+.popup-text textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    border:solid rgb(97, 95, 95) 2px;
+}
+.popup-text input::placeholder{
+    color: black;
+}
+.popup-text textarea::placeholder{
+    color: black;
+}
+.popup-text button{
+    background-color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+    position: relative;
+    left: 25%;
+    margin-top: 20px;
+  
+
+}  
+.popup-text input:focus{
+    outline: none;
+}  
+.popup-text textarea:focus{
+    outline: none;
+}  

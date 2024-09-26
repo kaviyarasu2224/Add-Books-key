@@ -13,17 +13,14 @@ addbutton.addEventListener("click",function(){
     pupopoverlay.style.display = "none"
     pupoptext.style.display = "none"
    })
-
    var maincontainer=document.querySelector(".container")
    var addbook=document.getElementById("addbook")
    var h2=document.getElementById("book-title")
    var h5=document.getElementById("book-author")
    var pera=document.getElementById("book-text")
-
    addbook.addEventListener("click",function(event){
     event.preventDefault()
-
-       
+  
     var div=document.createElement("div")
     div.setAttribute("class","book-container")
     div.innerHTML=`<h2>${h2.value}</h2>

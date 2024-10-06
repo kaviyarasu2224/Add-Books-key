@@ -14,7 +14,6 @@ addbutton.addEventListener("click",function(){
     pupoptext.style.display = "none"
    })
    var maincontainer=document.querySelector(".container")
-
    var addbook=document.getElementById("addbook")
 
    var h2=document.getElementById("book-title")
